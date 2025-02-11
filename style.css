@@ -1,4 +1,106 @@
-body{
-    font-family: Arial,Arial, Helvetica, sans-serif;
-    
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+hr {
+    border: 1px solid #ddd;
+    margin: 20px 0;
+}
+
+/* Header Section */
+.header-section h1 {
+    color: #007BFF;
+    font-size: 2.5em;
+}
+
+.header-section h2 {
+    color: #28A745;
+    font-size: 2em;
+}
+
+.header-section h3 {
+    color: #DC3545;
+    font-size: 1.5em;
+}
+
+/* Link Section */
+.link-section a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.link-section a:hover {
+    text-decoration: underline;
+}
+
+.link-section img {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Fruits Section */
+.fruits-section ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+.fruits-section li {
+    margin: 5px 0;
+}
+
+/* Table Section */
+.table-section table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.table-section th, .table-section td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.table-section th {
+    background-color: #007BFF;
+    color: white;
+}
+
+.table-section tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Form Section */
+.form-section label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.form-section input[type="text"],
+.form-section input[type="password"],
+.form-section input[type="date"],
+.form-section input[type="range"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.form-section input[type="submit"] {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-section input[type="submit"]:hover {
+    background-color: #0056b3;
 }
